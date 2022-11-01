@@ -1,0 +1,26 @@
+MSG.eu.WishName = 
+{
+    "Beach": "Beach",
+    "PVP": "PvP Progress",
+    "PVE": "PvE Progress",
+    "Exp": "Experience",
+    "Coin": "Coin",
+    "PowBuf": "PvE Power Buff",
+    "LifeBuf": "PvE Life Buff",
+    "Equip": "Equipment Capacity",
+    "Fruit": "Accessory Capacity",
+    "HpPot": "Health Potion",
+    "SdPot": "Shield Potion",
+    "Aura101": "SHI",
+    "Aura102": "XIN",
+    "Aura103": "FENG",
+    "PowP": "Physical Power",
+    "PowM": "Magical Power",
+    "HpMax": "Extra Health",
+    "SdMax": "Extra Shield",
+    "Spd": "Extra Speed",
+    "AtkP": "Physical Attack",
+    "AtkM": "Magical Attack",
+    "DefP": "Physical Defense",
+    "DefM": "Magical Defense"
+}

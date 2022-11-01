@@ -1,0 +1,32 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: build
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: |
+          npm install
+          npm run build
+          git clone https://${{secrets.USR}}@github.com/hirakanaKF/fygarc.git
+          /bin/cp -rf bundle/client.html fygarc/fygemu.client.html
+          cd fygarc
+          git config user.name "hirakana@kf"
+          git config user.email ""
+          git add .
+          git commit --amend --no-edit
+          git push -f https://${{secrets.USR}}@github.com/hirakanaKF/fygarc.git
+      
