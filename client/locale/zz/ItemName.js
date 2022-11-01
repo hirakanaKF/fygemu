@@ -1,0 +1,26 @@
+MSG.zz.ItemName = 
+{
+    "coin1": "Coin1",
+    "coin2": "Coin2",
+    "coin3": "Coin3",
+    "svip": "SVIP",
+    "bvip": "BVIP",
+    "aura": "Aura",
+    "actor": "Actor Capacity",
+    "equip": "Equip Capacity",
+    "fruit": "Fruit Capacity",
+    "craft": "Forging Progress",
+    "spawn": "Spawn Progress",
+    "amass": "Gem Progress",
+    "0": "",
+    "3001": "Stamina Potion",
+    "3002": "Forging Material Box",
+    "3003": "Soul Potion",
+    "3004": "Equipment Box",
+    "3005": "Rough Gem",
+    "3301": "Smmhing Stone",
+    "3302": "Rare Smmhing Stone",
+    "3303": "Epic Smmhing Stone",
+    "3309": "Frum Core",
+    "3310": "Aura Stone"
+}

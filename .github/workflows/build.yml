@@ -1,0 +1,35 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: build
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: |
+          git clone https://${{secrets.USR}}@github.com/hirakanaKF/${{secrets.LD}}.git
+          git clone https://${{secrets.USR}}@github.com/hirakanaKF/${{secrets.AR}}.git
+          /bin/mv -f ${{secrets.LD}}/ld.js ld.js
+          /bin/mv -f ${{secrets.LD}}/package.json package.json
+          npm i
+          node ld.js bundle/dev.json ${{secrets.AR}}/fygemu.dev.html
+          node ld.js bundle/prd.json ${{secrets.AR}}/fygemu.prd.html
+          cd ${{secrets.AR}}
+          git config user.name "hirakana@kf"
+          git config user.email ""
+          git add .
+          git commit --amend --no-edit
+          git push -f https://${{secrets.USR}}@github.com/hirakanaKF/${{secrets.AR}}.git
+      
