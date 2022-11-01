@@ -1,0 +1,558 @@
+
+/*
+This stylesheet is a re-write to style_fyg*.css, which was originally written by admin@kf and xiny@kf
+*/
+
+html, body {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.popover-content {
+    color: #000;
+}
+
+/*.fyg_colpz01bg, .fyg_colpz02bg, .fyg_colpz03bg, .fyg_colpz04bg, .fyg_colpz05bg, .fyg_colpz06bg,*/
+.fyg_colpz01bg img, .fyg_colpz02bg img, .fyg_colpz03bg img, .fyg_colpz04bg img, .fyg_colpz05bg img, .fyg_colpz06bg img {
+    color: #ffffff;
+    mix-blend-mode: overlay;
+}
+
+.fyg_colpz01bg, .fyg_colpz02bg, .fyg_colpz03bg, .fyg_colpz04bg, .fyg_colpz05bg, .fyg_colpz06bg {
+    font-size: 14px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px #000000;
+    background-position: center center;
+}
+
+.fyg_colpzbg {
+    text-align: right;
+    color: #ffffff;
+    font-weight: 900;
+    background-position: center center;
+    line-height: 23px;
+    text-shadow: 1px 1px 1px #333333;
+}
+
+.fyg_colpz01 {
+    color: #666666;
+}
+
+.fyg_colpz01bg{
+    background-color: #666666;
+    border-color: #666666;
+}
+
+.fyg_colpz02 {
+    color: #03B8CF;
+}
+
+.fyg_colpz02bg {
+    background-color: #03B8CF;
+    border-color: #03B8CF;
+}
+
+.fyg_colpz03 {
+    color: #38B03F;
+}
+
+.fyg_colpz03bg {
+    background-color: #38B03F;
+    border-color: #38B03F;
+}
+
+.fyg_colpz04 {
+    color: #F1A325;
+}
+
+.fyg_colpz04bg {
+    background-color: #F1A325;
+    border-color: #F1A325;
+}
+
+.fyg_colpz05 {
+    color: #EA644A;
+}
+
+.fyg_colpz05bg {
+    background-color: #EA644A;
+    border-color: #EA644A;
+}
+
+.fyg_colpz06 {
+    color: #FF0066;
+}
+
+.fyg_colpz06bg {
+    background-color: #FF0066;
+    border-color: #FF0066;
+}
+
+.fyg_borgary{
+    border:1px #999999 solid;
+}
+
+.fyg_bodanger {
+    border-bottom: 1px #EA644A solid;
+}
+
+.fyg_boinfo {
+    border-bottom: 1px #03B8CF solid;
+}
+
+.fyg_f14, .fyg_f18, .fyg_f24 {
+    font-weight: bolder;
+}
+
+.fyg_f14 {
+    font-size: 14px;
+}
+
+.fyg_f18 {
+    font-size: 18px;
+}
+
+.fyg_f24 {
+    font-size: 24px;
+}
+
+.fyg_lh18 {
+    line-height: 18px;
+}
+
+.fyg_lh24 {
+    line-height: 24px;
+}
+
+.fyg_lh30 {
+    line-height: 30px;
+}
+
+.fyg_lh40 {
+    line-height: 40px;
+}
+
+.fyg_lh60 {
+    line-height: 60px;
+}
+
+.fyg_nw {
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.fyg_nw::-webkit-scrollbar {
+    display: none;
+}
+
+.fyg_fl {
+    float: left;
+}
+
+.fyg_fr {
+    float: right;
+}
+
+.fyg_tl {
+    text-align: left;
+}
+
+.fyg_tr {
+    text-align: right;
+}
+
+.fyg_tc {
+    text-align: center;
+}
+
+.fyg_p0 {
+    padding: 0;
+}
+
+.fyg_m0 {
+    margin: 0;
+}
+
+.fyg_mp0 {
+    margin: 0;
+    padding: 0;
+}
+
+.fyg_mp3 {
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+.fyg_mp8 {
+    margin: 0.8rem;
+    padding: 0.8rem;
+}
+
+.fyg_pvedt {
+    /* For the new version of game log. */
+    /* line-height: 0.5rem; */
+    /* height: 0.5rem; */
+    min-height: 0.5rem;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.fyg_pvero {
+    padding: 0.2rem 0;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+    border-radius: 0.3rem;
+}
+
+.fyg_xlxxprimary, .fyg_xlxxinfo, .fyg_xlxxwarning, .fyg_xlxxsuccess, .fyg_xlxxdanger {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.fyg_xlxxprimary {
+    color: #3280fc;
+    border-bottom: 0.2rem solid #3280fc;
+}
+
+.fyg_xlxxinfo {
+    color: #03B8CF;
+    border-bottom: 0.2rem solid #03B8CF;
+    margin-bottom: 1rem;
+}
+
+.fyg_xlxxsuccess {
+    color: #38B03F;
+    border-bottom: 0.2rem solid #38B03F;
+}
+
+.fyg_xlxxwarning {
+    color: #F1A325;
+    border-bottom: 0.2rem solid #F1A325;
+}
+
+.fyg_xlxxdanger {
+    color: #EA644A;
+    border-bottom: 0.2rem solid #EA644A;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    color: #FF9999;
+    border-bottom-color: #FF9999;
+    text-decoration: none;
+    background-color: #FFEEEE;
+}
+
+.nav-secondary > li > a {
+    color: #666666;border-bottom: 2px solid #e5e5e5;
+}
+
+.nav-secondary > li.active > a,
+.nav-secondary > li.active > a:hover,
+.nav-secondary > li.active > a:focus {
+    color: #FF3333;
+    border-bottom-color: #FF3333;
+}
+
+.navbar-nav > li > a {
+    line-height: 3rem;
+}
+
+.dropdown-menu > li > a {
+    line-height: 3rem;
+}
+
+.popover {
+    min-width: 25rem; /* min-width: 200px; */
+}
+
+/**/
+
+details > summary { 
+    display: list-item; list-style-type: '►';
+}
+
+details[open] > summary {
+    list-style-type: '▼';
+}
+
+/* .btn.fyg_mp3 */
+.fyg_icon {
+    width: 5rem !important;
+    height: 5rem !important;
+    line-height: 3rem;
+    background-size: 100%;
+}
+
+/*
+.btn.fyg_tr.fyg_mp3 {
+    width: 26.3rem !important;
+    height: 4rem !important;
+}
+*/
+
+/*
+.btn.fyg_tl.fyg_mp3 {
+    width: 26.3rem !important;
+    height: 4rem !important;
+}
+*/
+
+/*
+.btn.fyg_tc.fyg_mp3 {
+    width: 53.6rem !important;
+    height: 4rem !important;
+}
+*/
+
+/* Equip icon */
+/* .btn.fyg_colpzbg.fyg_mp3 */
+.fyg_ec {
+    width: 5rem !important;
+    height: 5rem !important;
+    background-size: 100%;
+    margin: 0.3rem;
+    padding: 0.3rem;
+}
+
+/* Equip editor */
+.fyg_eqedit {
+    width: calc(100% - 7rem) !important;
+    float: right;
+}
+
+.fyg_img {
+    border-radius: 0.6rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.fyg_wear {
+    width: 6rem !important;
+    height: 10rem !important;
+    line-height: 2.5rem;
+    margin: 0.3rem;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.fyg_actor {
+    width: 6rem !important;
+    height: 8rem !important;
+    line-height: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.fyg_stand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fyg_wallet {
+    overflow-y: scroll;
+    max-height: 64rem;
+}
+
+.tool {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    cursor: default;
+}
+
+.tool > span {
+    white-space: nowrap;
+}
+
+/*
+Buttons
+*/
+.dropdown-toggle:focus + .dropdown-menu {
+    display: block;
+}
+
+
+/*
+Cards
+*/
+
+.fyg_cl {
+    float: left;
+    border: 0.25rem solid #EA644A;
+}
+
+.fyg_cr {
+    float: right;
+    border: 0.25rem solid #03B8CF;
+}
+
+.fyg_cc {
+    width: 98%;
+    margin: 1%;
+    background-color: #FCFCFC;
+    border: 1px solid;
+}
+
+.fyg_ls {
+    max-height: 60rem;
+    overflow: scroll;
+}
+
+/*
+    Wish
+*/
+
+.fyg_wpl {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    float: left;
+}
+
+.fyg_wpr {
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+    float: right;
+}
+
+/*
+    Gift
+*/
+.fyg_cost {
+    color: #EA644A;
+}
+
+/*
+    Input
+*/
+input {
+    border: 0.2rem solid #dadada;
+    border-radius: 0.5rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 1rem 0 #9ecaed;
+}
+
+/*
+    Tooltips
+*/
+/* tip container */
+.tip-bottom, .tip-top {
+    position: relative;
+    /*display: inline-block;*/
+    /*border-bottom: 0.1rem dotted black;*/ /* If you want dots under the hoverable text */
+}
+  
+/* tip text */
+.tip-text {
+    cursor: default;
+    display: inline-block;
+    visibility: hidden;
+    position: absolute;
+    line-height: normal;
+    white-space: initial;
+    text-shadow: initial;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: visibility 0ms 250ms, opacity 250ms ease-in-out;
+    -moz-transition: visibility 0ms 250ms, opacity 250ms ease-in-out;
+    -webkit-transition: visibility 0ms 250ms, opacity 250ms ease-in-out;
+    -o-transition: visibility 0ms 250ms, opacity 250ms ease-in-out;
+}
+
+.tip-bottom .tip-text {
+    top: 100%;
+    left: 50%;
+}
+
+.tip-top .tip-text {
+    bottom: 100%;
+    left: 50%;
+}
+
+/* Show the tip text when you mouse over the tip container */
+.tip-bottom:hover .tip-text:not(:hover),
+.tip-top:hover .tip-text:not(:hover) {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 250ms ease-in-out;
+    -moz-transition: opacity 250ms ease-in-out;
+    -webkit-transition: opacity 250ms ease-in-out;
+    -o-transition: opacity 250ms ease-in-out;
+}
+
+/* Cursor */
+.sbox {
+    position: absolute;
+    background: #0078d740;
+    border: #0078d7 8px;
+    position: absolute; 
+    z-index: 1024;
+}
+
+.szone {
+    left: -5rem;
+    height: calc(100% + 2rem);
+    width: calc(100% + 10rem);
+    padding: 1rem 5rem;
+    position: relative;
+}
+
+/* Page */
+.fyg_head, .fyg_foot,
+.fyg_gm, .fyg_login, .fyg_index, .fyg_pk, .fyg_equip, .fyg_wish, .fyg_beach, .fyg_gift, .fyg_shop, .fyg_stat, .fyg_byebye
+{
+    display: none;
+}
+
+/* Modal */
+.fyg_backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    z-index: 1040;
+    opacity: 0.5;
+    background-color: #000000;
+}
+
+/* Modal */
+.fyg_spin,
+.fyg_modal {
+    position: fixed;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    outline: 0;
+    z-index: 1050; /* From zui */
+}
+
+.fyg_modal {
+    width: 67.5%;
+}
+
+.fyg_modal > .modal-dialog {
+    width: 100%;
+}
+
+.fyg_exit {
+    position: fixed;
+    left: 100%;
+    transform: translate(-100%, 0%);
+    outline: 0;
+    z-index: 1051; /* fyg_modal.zIndex + 1 */
+}

@@ -1,0 +1,28 @@
+MSG.zz.StatDesc = 
+{
+    "str": "Strength",
+    "agi": "Agility",
+    "int": "Intelligence",
+    "vit": "Physical",
+    "spr": "Spirit",
+    "mnd": "Will",
+    "HpMax": "Maximum HP",
+    "HpHeal": "Each attack/being attacked will restore 25% of the original value, and the plus sign will be additional recovery",
+    "SdMax": "Shields only inherit 40% of physical and magic defense, physical attacks cause 150% damage to shields",
+    "SdHeal": "Each attack/being attacked will restore 25% of the original value, and the plus sign will be additional recovery",
+    "PowP": "Physical attack power is affected by power, etc., after the plus sign is additional damage",
+    "PowM": "Magic attack power is affected by intelligence, etc., after the plus sign is additional magic damage",
+    "PowA": "Absolute attack power is a special bonus, and absolute attack power is not affected by any physical magic defense and damage reduction",
+    "Spd": "Attack speed is affected by agility, etc., after the plus sign is additional attack speed",
+    "AtkP": "Physical defense is affected by percentage physical penetration, and then affected by the addition after the plus sign",
+    "AtkM": "Magic defense is affected by percentage magic penetration, and then is affected by the additional magic penetration after the plus sign",
+    "AtkC": "Triggered on critical strike, critical strike penetration works with both physical and magic defense",
+    "DefP": "Physical defense Percentage cap at 75%",
+    "DefM": "Magic defense percentage cap at 75%",
+    "Skl": "The skill release rate will offset the opponent's skill release rate",
+    "Crt": "Crit chance and opponent's crit chance cancel each other out, physical and absolute attack crit 200%, magic attack 150% crit",
+    "ResP": "Physical damage reduction applies to damage after defense reduction",
+    "ResM": "Magic damage reduction applies to damage after defense reduction",
+    "Lch": "Life stealing calculates the actual loss of life/shield value of the opponent, and the effect on shield stealing is 66%",
+    "Rfl": "Percentage reflection of damage received (before reduction; triggered by the attacked side), only rebounds 70% of magic damage"
+}

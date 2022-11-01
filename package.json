@@ -1,0 +1,15 @@
+{
+  "name": "fygemu",
+  "version": "",
+  "description": "An emulator project to \"fyg\".",
+  "author": "hirakana@kf",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "memfs": "*",
+    "webpack": "*"
+  },
+  "dependencies": {
+    "mongodb": "^5.0.1",
+    "ws": "^8.12.1"
+  }
+}

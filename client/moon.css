@@ -1,0 +1,273 @@
+/*
+This stylesheet is an attempt to produce dark-mode against zui.css, which was written by hirakana@kf.
+*/
+
+body 
+{
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+.panel 
+{
+    border-color: #000;
+}
+
+.panel, .panel-body, .alert-body,
+.popover-content:not([class*="text-"]),
+.tooltip:not([class*="tooltip-"])
+{
+    background-color: #303134;
+    color: #bfbebb;
+}
+
+.hl-default:not([class*="text-"]),
+.hl-gray:not([class*="text-"]),
+.hl-info:not([class*="text-"]),
+.hl-blue:not([class*="text-"]),
+.hl-primary:not([class*="text-"]),
+.hl-success:not([class*="text-"]),
+.hl-green:not([class*="text-"]),
+.hl-warning:not([class*="text-"]),
+.hl-yellow:not([class*="text-"]),
+.hl-danger:not([class*="text-"]),
+.hl-red:not([class*="text-"]),
+.hl-special:not([class*="text-"]),
+.hl-purple:not([class*="text-"]),
+.fyg_pvero
+{
+    color: #c0c0c0;
+}
+
+img,
+.btn,
+.fyg_img
+{
+    opacity: 0.875;
+}
+
+.modal-content
+{
+    background-color: #303134;
+    color: #d0cfcc; 
+}
+
+/* gray */
+.btn:not([class*="fyg_col"]),
+.label:not([class*="fyg_col"]),
+.panel > .panel-heading
+{
+    background-color: #3f3f3f;
+    color: #c0c0c0;
+}
+
+input,
+select,
+button,
+.alert,
+.hl-gray,
+.form-control,
+.form-control[disabled],
+.form-control[readonly],
+.fyg_cc
+{
+    background-color: #202020;
+    color: #c0c0c0;
+    border-color: #303030;
+}
+
+.hl-default
+{
+    background-color: #202020;
+}
+
+/* light blue */
+.btn-info:not([class*="fyg_col"]),
+.label-info:not([class*="fyg_col"]),
+.panel-info > .panel-heading
+{
+    background-color: #1c3c5d;
+    color: #c0c0c0;
+}
+
+.alert-info,
+.hl-info
+{
+    background-color: #013d45;
+}
+
+.fyg_colpz01
+{
+    color: #03a1b5;
+}
+
+.fyg_colpz01bg,
+.bg-info,
+.popover-info .arrow
+.popover-info .popover-title
+{
+    background-color: #028a9b;
+    border-color: #028a9b;
+}
+
+.fyg_xlxxinfo
+{
+    color: #03a1b5;
+    border-bottom: 0.2rem solid #028a9b;
+}
+
+/* blue */
+.btn-primary:not([class*="fyg_col"]),
+.label-primary:not([class*="fyg_col"]),
+.panel-primary > .panel-heading
+{
+    background-color: #023992;
+    color: #c0c0c0;
+}
+
+.alert-primary,
+.hl-primary
+{
+    background-color: #112b54;
+}
+
+.fyg_colpz02
+{
+    color: #2c70dc;
+}
+
+.fyg_colpz02bg,
+.bg-primary,
+.popover-primary .arrow,
+.popover-primary .popover-title
+{
+    background-color: #2660bd;
+    border-color: #2660bd;
+}
+
+.fyg_xlxxprimary
+{
+    color: #2c70dc;
+    border-bottom: 0.2rem solid #2660bd;
+}
+
+/* green */
+.btn-success:not([class*="fyg_col"]),
+.label-success:not([class*="fyg_col"]),
+.panel-success > .panel-heading
+{
+    background-color: #1c5621;
+    color: #c0c0c0;
+}
+
+.alert-success,
+.hl-success
+{
+    background-color: #0c270e;
+}
+
+.fyg_colpz03
+{
+    color: #319a37;
+}
+
+.fyg_colpz03bg,
+.bg-success,
+.popover-success .arrow,
+.popover-success .popover-title
+{
+    background-color: #2a842f;
+    border-color: #2a842f;
+}
+
+.fyg_xlxxsuccess
+{
+    color: #319a37;
+    border-bottom: 0.2rem solid #2a842f;
+}
+
+/* yellow */
+.btn-warning:not([class*="fyg_col"]),
+.label-warning:not([class*="fyg_col"]),
+.panel-warning > .panel-heading
+{
+    background-color: #785112;
+    color: #c0c0c0;
+}
+
+.alert-warning,
+.hl-warning
+{
+    background-color: #3b2604;
+}
+
+.fyg_colpz04
+{
+    color: #d38f20;
+}
+
+.fyg_colpz04bg,
+.bg-warning,
+.popover-warning .arrow,
+.popover-warning .popover-title
+{
+    background-color: #b57a1c;
+    border-color: #b57a1c;
+}
+
+.fyg_xlxxwarning
+{
+    color: #d38f20;
+    border-bottom: 0.2rem solid #b57a1c;
+}
+
+/* red */
+.btn-danger:not([class*="fyg_col"]),
+.label-danger:not([class*="fyg_col"]),
+.panel-danger > .panel-heading
+{
+    background-color: #781400;
+    color: #c0c0c0;
+}
+
+.alert-danger,
+.hl-danger
+{
+    background-color: #40160e;
+}
+
+.fyg_colpz05
+{
+    color: #cd5741;
+}
+
+.fyg_colpz05bg,
+.bg-danger,
+.popover-danger .arrow,
+.popover-danger .popover-title
+{
+    background-color: #af4b37;
+    border-color: #af4b37;
+}
+
+.fyg_xlxxdanger
+{
+    color: #cd5741;
+    border-bottom: 0.2rem solid #af4b37;
+}
+
+/* purple */
+.btn-special:not([class*="fyg_col"]),
+.label-special:not([class*="fyg_col"]),
+.panel-special > .panel-heading,
+.bg-special
+{
+    background-color: #33007b;
+    color: #c0c0c0;
+}
+
+.alert-special,
+.hl-special
+{
+    background-color: #2d223d;
+}
