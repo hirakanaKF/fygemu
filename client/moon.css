@@ -1,0 +1,109 @@
+/*
+This stylesheet is an attempt to produce dark-mode against zui.css, which was written by hirakana@kf.
+*/
+
+body 
+{
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+.panel 
+{
+    border-color: #000;
+}
+
+.panel, .panel-body, .alert-body,
+.popover-content:not([class*="text-"]),
+.tooltip:not([class*="tooltip-"])
+{
+    background-color: #303134;
+    color: #bfbebb;
+}
+
+.hl-default:not([class*="text-"]),
+.hl-gray:not([class*="text-"]),
+.hl-info:not([class*="text-"]),
+.hl-blue:not([class*="text-"]),
+.hl-primary:not([class*="text-"]),
+.hl-success:not([class*="text-"]),
+.hl-green:not([class*="text-"]),
+.hl-warning:not([class*="text-"]),
+.hl-yellow:not([class*="text-"]),
+.hl-danger:not([class*="text-"]),
+.hl-red:not([class*="text-"]),
+.hl-special:not([class*="text-"]),
+.hl-purple:not([class*="text-"]),
+.fyg_pvero
+{
+    color: #1f1f1f;
+}
+
+.modal-content
+{
+    background-color: #303134;
+    color: #d0cfcc; 
+}
+
+/* gray */
+.btn:not([class*="fyg_col"]),
+.label:not([class*="fyg_col"]),
+.panel > .panel-heading
+{
+    background-color: #3f3f3f;
+    color: #c0c0c0;
+}
+
+/* light blue */
+.btn-info:not([class*="fyg_col"]),
+.label-info:not([class*="fyg_col"]),
+.panel-info > .panel-heading
+{
+    background-color: #3778b9;
+    color: #fff;
+}
+
+/* blue */
+.btn-primary:not([class*="fyg_col"]),
+.label-primary:not([class*="fyg_col"]),
+.panel-primary > .panel-heading
+{
+    background-color: #023992;
+    color: #fff;
+}
+
+/* green */
+.btn-success:not([class*="fyg_col"]),
+.label-success:not([class*="fyg_col"]),
+.panel-success > .panel-heading
+{
+    background-color: #38ad42;
+    color: #fff;
+}
+
+/* yellow */
+.btn-warning:not([class*="fyg_col"]),
+.label-warning:not([class*="fyg_col"]),
+.panel-warning > .panel-heading
+{
+    background-color: #eb9800;
+    color: #fff;
+}
+
+/* red */
+.btn-danger:not([class*="fyg_col"]),
+.label-danger:not([class*="fyg_col"]),
+.panel-danger > .panel-heading
+{
+    background-color: #f02800;
+    color: #fff;
+}
+
+/* purple */
+.btn-special:not([class*="fyg_col"]),
+.label-special:not([class*="fyg_col"]),
+.panel-special > .panel-heading
+{
+    background-color: #6600f5;
+    color: #fff;
+}
